@@ -1,0 +1,23 @@
+{
+	"name": "fcc-learn-npm-package-json",
+  "author":"Vipin Chandra",/* The name of package author */
+  "description": "The course of api and microservices",/* description */
+  "keywords":["descriptive","course","bestsolution","freecodecamp"], 
+  "license": "MIT",
+  "version":"1.0.0",/*Major.minor.Patch */
+	"dependencies": {
+		"express": "^4.14.0" /*Whenever a npm install some package it lookout for dependencies and install that for the project of the latest version. */
+                         
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "8.11.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
+}
